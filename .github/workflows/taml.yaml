@@ -79,8 +79,8 @@ jobs:
         run: xcodebuild -list
 
 
-      # - name: building the app
-      #   run: xcodebuild -workspace livaat.xcworkspace -scheme "livaat" -configuration "Release" -sdk "iphonesimulator" -destination "generic/platform=iOS" clean build
+      - name: building the app
+        run: xcodebuild -workspace Susi.xcworkspace -scheme "Susi" -configuration "Release" -sdk "iphonesimulator" -destination "generic/platform=iOS" clean build
 
 
 
