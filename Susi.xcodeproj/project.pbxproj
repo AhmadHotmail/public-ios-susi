@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0475AD362934C35E0005C284 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D35E4871EE70F9000188E1F /* Accelerate.framework */; };
+		0475AD372934C35E0005C284 /* Accelerate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D35E4871EE70F9000188E1F /* Accelerate.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0475AD392934C3600005C284 /* Pods_Susi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C564B012515FE5529232089A /* Pods_Susi.framework */; };
+		0475AD3A2934C3600005C284 /* Pods_Susi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C564B012515FE5529232089A /* Pods_Susi.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0475AD3B2934C3620005C284 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE264901F0278A900EBAD13 /* Speech.framework */; };
+		0475AD3C2934C3620005C284 /* Speech.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE264901F0278A900EBAD13 /* Speech.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3BC1D8D5203B177E003E62F9 /* noConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1D8D3203B177E003E62F9 /* noConnectionViewController.swift */; };
 		3BC1D8D6203B177E003E62F9 /* noConnectionNetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1D8D4203B177E003E62F9 /* noConnectionNetworkStatus.swift */; };
 		40172A8520ECAA49006B462C /* YouTubePlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40172A8420ECAA49006B462C /* YouTubePlayerCell.swift */; };
@@ -54,7 +60,6 @@
 		6D2F984B1E76DF2200FE2B6F /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F984A1E76DF2200FE2B6F /* BaseCell.swift */; };
 		6D3527131F083F8E00395BD5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE44E141E76ACD900215B85 /* Constants.swift */; };
 		6D3527141F083F9100395BD5 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE44E101E76ACAF00215B85 /* Client.swift */; };
-		6D35E4881EE70F9000188E1F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D35E4871EE70F9000188E1F /* Accelerate.framework */; };
 		6D395D1D1F58966900BCC3C5 /* SkillDetailExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D395D1C1F58966900BCC3C5 /* SkillDetailExampleCell.swift */; };
 		6D395D1F1F589CC000BCC3C5 /* SkillDetailVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D395D1E1F589CC000BCC3C5 /* SkillDetailVCMethods.swift */; };
 		6D395D211F589CFE00BCC3C5 /* SkillDetailVCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D395D201F589CFE00BCC3C5 /* SkillDetailVCCollectionView.swift */; };
@@ -95,7 +100,6 @@
 		6DD5030E1F36656C008388E4 /* SpeechRecognitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5030D1F36656C008388E4 /* SpeechRecognitionDelegate.swift */; };
 		6DE002591F3FF5140065DB85 /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE002581F3FF5140065DB85 /* MapCell.swift */; };
 		6DE0025B1F3FF93A0065DB85 /* AnchorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0025A1F3FF93A0065DB85 /* AnchorCell.swift */; };
-		6DE264911F0278A900EBAD13 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE264901F0278A900EBAD13 /* Speech.framework */; };
 		6DE44E0F1E769AD300215B85 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE44E0E1E769AD300215B85 /* Color.swift */; };
 		6DE44E111E76ACAF00215B85 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE44E101E76ACAF00215B85 /* Client.swift */; };
 		6DE44E161E76ACD900215B85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE44E141E76ACD900215B85 /* Constants.swift */; };
@@ -106,7 +110,6 @@
 		6DE809D11F34DC6500CAE674 /* TrainingAudioRecorderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE809D01F34DC6500CAE674 /* TrainingAudioRecorderDelegate.swift */; };
 		6DEE71121F2C9DC900A512CF /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE71111F2C9DC900A512CF /* AppNavigationController.swift */; };
 		6DFC75B91EE077E9002F92BA /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC75B81EE077E9002F92BA /* ForgotPasswordViewController.swift */; };
-		71DF0561EA8079C5C53174C1 /* Pods_Susi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C564B012515FE5529232089A /* Pods_Susi.framework */; };
 		80183F6F21D170BB00859F72 /* AboutVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80183F6E21D170BB00859F72 /* AboutVCMethods.swift */; };
 		807A754421D143A1008D4032 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A754321D143A1008D4032 /* AboutViewController.swift */; };
 		94889CA61F7CCD370028B8C3 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94889CA51F7CCD370028B8C3 /* GeneralViewController.swift */; };
@@ -129,6 +132,22 @@
 			remoteInfo = Susi;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0475AD382934C35E0005C284 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0475AD3A2934C3600005C284 /* Pods_Susi.framework in Embed Frameworks */,
+				0475AD3C2934C3620005C284 /* Speech.framework in Embed Frameworks */,
+				0475AD372934C35E0005C284 /* Accelerate.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		262BC7CF14D165C735BF16FA /* Pods-SusiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SusiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SusiUITests/Pods-SusiUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -274,10 +293,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0475AD3B2934C3620005C284 /* Speech.framework in Frameworks */,
+				0475AD392934C3600005C284 /* Pods_Susi.framework in Frameworks */,
 				6D2898421F14507700B6151A /* libsnowboy-detect.a in Frameworks */,
-				6DE264911F0278A900EBAD13 /* Speech.framework in Frameworks */,
-				6D35E4881EE70F9000188E1F /* Accelerate.framework in Frameworks */,
-				71DF0561EA8079C5C53174C1 /* Pods_Susi.framework in Frameworks */,
+				0475AD362934C35E0005C284 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +788,7 @@
 				6D4D9B341E768E190067459C /* Frameworks */,
 				6D4D9B351E768E190067459C /* Resources */,
 				945053A39E200D7E967B5153 /* [CP] Embed Pods Frameworks */,
+				0475AD382934C35E0005C284 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -798,9 +818,8 @@
 					};
 					6D4D9B361E768E190067459C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7P4K4M8A4Q;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1272,7 +1291,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Susi/Supporting Files/Info.plist";
@@ -1282,7 +1302,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Susi/**",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.imjog.susi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubitc.livaat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Susi/Snowboy Files/Susi-Bridging-Header.h";
@@ -1299,7 +1319,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Susi/Supporting Files/Info.plist";
@@ -1309,7 +1330,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Susi/**",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.imjog.susi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubitc.livaat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Susi/Snowboy Files/Susi-Bridging-Header.h";
