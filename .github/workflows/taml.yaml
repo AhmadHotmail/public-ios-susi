@@ -72,8 +72,15 @@ jobs:
       # - name: Install CocoaPods
       #   run: bundle exec pod install
 
-      - name: building the app
-        run: xcodebuild -workspace livaat.xcworkspace -scheme "livaat" -configuration "Release" -sdk "iphonesimulator" -destination "generic/platform=iOS" clean build
+
+      - name: Check xcode embedded SDKs
+        run: xcodebuild -showsdks
+      - name: Show buildable schemes
+        run: xcodebuild -list
+
+
+      # - name: building the app
+      #   run: xcodebuild -workspace livaat.xcworkspace -scheme "livaat" -configuration "Release" -sdk "iphonesimulator" -destination "generic/platform=iOS" clean build
 
 
 
